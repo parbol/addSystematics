@@ -1,0 +1,29 @@
+# This file contains the formulas for the mean and sigma of the leptons, b-jets, and MET.
+
+# Remember that the order is important and has to be always:
+# mu lepton
+# sigma lepton
+# mu b-jet
+# sigma b-jet
+# mu MET
+# sigma MET
+
+# Remember also that a formula has to start always with an "f"
+
+# Parameter "x" always means the transverse momentum and "y" is eta
+
+# mu lepton
+f x + y * 0
+# sigma lepton
+f 0.02 * x + y * 0
+
+# mu b-jet
+f x + y * 0
+# sigma b-jet
+f 0.1 * x + y * 0
+
+# mu MET
+f x + y * 0
+# sigma MET
+f 0.1 * x + y * 0
+
